@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from 'react';
-import { ScrollTrigger } from '../../utils/gsapConfig';
+import { gsap, ScrollTrigger } from '../../utils/gsapConfig';
 import type { SectionProps } from '../../types';
 
 const Section: React.FC<SectionProps> = ({ 
