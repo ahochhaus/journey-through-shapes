@@ -1,0 +1,22 @@
+.morphing-svg {
+  filter: drop-shadow(0 20px 40px rgba(99, 102, 241, 0.3));
+}
+
+.section-enter {
+  animation: sectionEnter 1s ease-out;
+}
+
+@keyframes sectionEnter {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.parallax-element {
+  will-change: transform;
+}
