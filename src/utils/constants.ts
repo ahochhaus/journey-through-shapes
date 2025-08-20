@@ -45,7 +45,7 @@ export const STORY_SECTIONS: StorySection[] = [
     toShape: 'logo',
     bgColor: 'bg-brand-blue',
     textColor: 'text-brand-blue',
-    bgImage: '/src/assets/byte5-office-header.jpg',
+    bgImage: '/byte5-office-header.jpg',
   }
 ];
 
