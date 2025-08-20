@@ -1,5 +1,5 @@
-import React, { useRef, useEffect, useState } from 'react';
-import { gsap, ScrollTrigger } from '../../utils/gsapConfig';
+import { useRef, useEffect, useState } from 'react';
+import { ScrollTrigger } from '../../utils/gsapConfig';
 import { STORY_SECTIONS } from '../../utils/constants';
 import MorphingSVG from './MorphingSVG';
 import Section from './Section';
